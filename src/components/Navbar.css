@@ -55,7 +55,7 @@
 		text-align: center;
 		transition: 0.4s;
 		z-index: -1;
-		background: rgba(0, 0, 0, 0.205);
+		background: rgba(0, 0, 0, 0.8);
 	}
 
 	.nav-items.active {
@@ -64,6 +64,12 @@
 
 	.nav-items li {
 		padding: 1rem 0;
+		width: 100%;
+		margin-bottom: 1rem;
+		transition: all 0.3s ease-in-out;
+	}
+	.nav-items li:hover {
+		background: rgba(0, 0, 0, 0.9);
 	}
 	.nav-items a {
 		font-size: 2rem;
